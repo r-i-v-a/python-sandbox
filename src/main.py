@@ -26,7 +26,7 @@ def calculateCost(caseId, caseList):
         cost += mIdx - i + 1
         caseList = reverseInterval(caseList, i, mIdx)
 
-    print("Case #", caseId, ":", cost)
+    print("Case #" + str(caseId) + ":", cost)
 
 def main():
     cases = int(input())
