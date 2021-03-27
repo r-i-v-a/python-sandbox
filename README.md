@@ -1,7 +1,13 @@
 # Python sandbox
 
-Run with input file as stdin
+Run with file as stdin
 
 ```
 ./src/main.py < resources/in.txt
+```
+
+Run with files as stdin, stdout
+
+```
+./src/main.py < resources/in.txt > resources/out.txt
 ```
